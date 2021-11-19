@@ -7,6 +7,38 @@ Let's build an API for Rumblr (https://rumblr.webflow.io) in Nest.js and TypeScr
 - Day 1 Repo: https://github.com/heypoom/typescript-crash-course
 - Slides: TBD
 
+### Installation
+
+```bash
+$ yarn
+```
+
+### Running the app
+
+```bash
+# development
+$ yarn start
+
+# watch mode
+$ yarn start:dev
+
+# production mode
+$ yarn start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ yarn test
+
+# e2e tests
+$ yarn test:e2e
+
+# test coverage
+$ yarn test:cov
+```
+
 # Services and API Specs
 
 The below API spec is provided as an example. You can ignore this entirely and create your own schema.
@@ -125,4 +157,3 @@ GET /messages/mattyice67
   { "from": "noobmaster69", "message": "Bro, your face is pissing me off. Wanna throw down?", "timestamp": 1637306628892 }
 ]
 ```
-
