@@ -14,6 +14,8 @@
 
 - Services to store data.
 - Create APIs! Let's aim for 8 API by today.
+
 - Pipes and Validation
 - Guards
   - Authentication
+- Testing?
